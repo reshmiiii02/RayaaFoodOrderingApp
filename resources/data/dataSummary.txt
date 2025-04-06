@@ -1,0 +1,100 @@
+
+🧩 Visual Wireframe (Text-Based Layout Sketch)
+
+--------------------------------------------------
+|                    HERO SECTION                |
+|  "Healthy meals delivered to you"              |
+|  [ Get Started ]  [ Learn More ]               |
+--------------------------------------------------
+|                  MEALS SECTION                 |
+|  [ Meal 1 ]  [ Meal 2 ]  [ Meal 3 ]  [ Meal 4 ]|
+--------------------------------------------------
+|                  STEPS SECTION                 |
+|  1. Choose your plan                           |
+|  2. Receive meals                              |
+|  3. Enjoy healthy food                         |
+--------------------------------------------------
+|                  CITIES SECTION                |
+|  [ City 1 ]  [ City 2 ]  [ City 3 ]  [ City 4 ]|
+|  Icons + short blurbs                          |
+--------------------------------------------------
+|               TESTIMONIALS SECTION             |
+|  “This changed my life!” — Alice               |
+|  “Fast, tasty, and easy!” — Bob                |
+--------------------------------------------------
+
+✅ Page Checklist (Functional Breakdown)
+
+
+1. Hero Section
+
+ Large heading with intro message
+ Two call-to-action buttons (primary & secondary)
+ Center-aligned layout
+ Unique background color (peach)
+
+2. Meals Section
+
+ Grid of four meals
+ Rounded image corners
+ Hover zoom animation on images
+ Neutral white background
+
+3. Steps Section
+
+ Three steps, numbered visually
+ Includes icon/visual + description
+ Orange color used in numbers or accents
+
+4. Cities Section
+
+ List of cities with icons and descriptions
+ Even layout using flex or grid
+ Light gray background
+ Orange theme maintained
+
+5. Testimonials Section
+
+ Customer quotes with names
+ Italicized font styling for quotes
+ Similar background to Hero (peach/cream)
+ Balanced spacing and typography
+
+6. Class & CSS Mapping (Quick Ref Guide)
+
+Here's a breakdown of common classes and their roles from your project:
+
+
+Class Name	       HTML Tags Used On	Purpose / CSS Effect
+
+section-meals	       section	               :Wraps meal cards; background: white, padding
+meal-box	       div (inside meals)      :Individual meal; image + title; hover effect
+section-steps	       section	               :Ordered steps layout; numbers styled in orange
+step-box	       div	               :Holds icon + text per step
+section-cities	       section	               :Grid of cities with icons & info
+city-feature	       div	               :One city card; light background; flex layout
+section-testimonials   section	               :Peach/cream background; holds quotes
+blockquote	       blockquote	       :Italic font styling for testimonials
+btn	               a, button	       :Base button style: padding, border-radius
+btn-full	       a (hero button)	       :Main call to action: orange background
+btn-ghost	       a (hero button)	       :Outlined button: border only, no fill
+heading-primary        h1	               :Hero heading: large font size, white
+row	               div	               :Flexbox/grid row system for layout
+
+
+8.Learning / Practice Ideas
+
+Use this project as a base to explore:
+
+Responsive layouts with CSS Grid or Flexbox
+Creating dark/light themes with a toggle
+Adding AOS (Animate on Scroll) or GSAP for scroll-based effects
+Improving performance (e.g., image compression, lazy loading)
+
+🎨 Global Styles
+
+ Main accent color: Orange (#e67e22)
+ Clean sans-serif font
+ Consistent paddings/margins
+ Responsive layout likely via flex/grid
+ Visual hierarchy with headings, bold, spacing .
