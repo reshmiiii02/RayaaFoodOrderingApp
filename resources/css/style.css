@@ -93,7 +93,7 @@ input[type=submit]{
     border-radius: 50%;
 }
 .main-nav{
-    float:right;
+    float:5%;
     list-style: none;
     margin-top: 55px;
     position: fixed;
