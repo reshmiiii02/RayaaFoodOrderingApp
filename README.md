@@ -29,4 +29,4 @@ Raaya is a food delivery web application that allows users to browse menu items,
 
 ## 📂 GitHub
 
-(Add your repo link here)
+(https://github.com/reshmiiii02/RayaaFoodOrderingApp.git)
