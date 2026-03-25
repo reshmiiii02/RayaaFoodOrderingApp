@@ -25,7 +25,7 @@ Raaya is a food delivery web application that allows users to browse menu items,
 
 ## 🔗 Live Demo
 
-(Add your deployed link here)
+(https://task5-foodapp.netlify.app/)
 
 ## 📂 GitHub
 
